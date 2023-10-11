@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1230px;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.imgWrapper {
+  width: 40%;
+}
+
+.imageHero {
+  max-height: 350px;
+}
+
+.textSpan {
+  color: #0cb900;
+  margin-right: 5px;
+}

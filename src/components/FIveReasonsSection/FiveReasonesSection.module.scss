@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1230px;
+
+  .itemWrapper {
+    max-width: 18%;
+    color: #929292;
+    text-align: center;
+    transition: all .4s ease;
+
+    .itemIcon {
+      max-height: 50px;
+      margin: 1rem auto;
+      opacity: .8;
+      transition: all .4s ease;
+    }
+
+    &:hover {
+      color: #000;
+
+      .itemIcon {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
