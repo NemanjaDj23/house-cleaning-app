@@ -1,0 +1,27 @@
+.faqAccordion {
+  width: 100%;
+  max-width: 900px;
+  transition: all 0.4s ease;
+
+  .faqItemTrigger {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 15px -10px #5f5f5f;
+    cursor: pointer;
+  }
+
+  .faqItemContent {
+    overflow: hidden;
+    margin-bottom: 0;
+    padding: 0 15px;
+    height: 0px;
+    transition: height ease .4s;
+  }
+
+
+}

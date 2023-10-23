@@ -9,7 +9,7 @@ function Header() {
         <a href='/'>Logo</a>
         <nav>
           <a href='/'>Cenovnik i usluge</a>
-          <a href='/'>Najčešća pitanja</a>
+          <a href='#faq'>Najčešća pitanja</a>
         </nav>
       </div>
       <div className='flex align-items'>

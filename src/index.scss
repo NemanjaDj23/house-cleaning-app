@@ -24,7 +24,7 @@ section {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 5rem 2rem;
+  padding: 10rem 2rem 0;
 }
 
 header {
@@ -56,6 +56,33 @@ a {
   }
 }
 
+button {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #49c2ff;
+  letter-spacing: .6px;
+  border-radius: 3px;
+  box-shadow: 0 9px 20px -5px #bebebe;
+  transition: all .3s ease;
+  border: none;
+  cursor: pointer;
+  line-height: 28px;
+  vertical-align: center;
+
+  &:hover {
+    background-color: #00a5f8;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #cacaca;
+  }
+}
+
 img {
   display: inline-block;
   max-width: 100%;
@@ -74,10 +101,116 @@ h1 {
   font-weight: 700;
 }
 
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 28px;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+}
+
+form {
+  width: 100%;
+  padding: 0 4rem;
+}
+
+label {
+  display: block;
+  color: #1e3f61;
+  letter-spacing: 0.02em;
+}
+
+input, textarea {
+  font-family: 'Nunito Sans', sans-serif;
+  min-width: 100%;
+  font-size: 1rem;
+  color: #1e3f61;
+  padding: 10px;
+  border: 1px solid #747494;
+  border-radius: 6px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  outline-color: #00a5f8;
+}
+
+textarea {
+  resize: none;
+}
+
 .flex {
   display: flex;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
+.pt-5 {
+  padding-top: 5rem;
+}
+
 .align-items {
   align-items: center;
+}
+
+.float {
+  float: right;
+}
+
+.loader {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #fff #fff transparent transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loader::after,
+.loader::before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent #00a5f8 #00a5f8;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+.loader::before {
+  width: 8px;
+  height: 8px;
+  border-color: #fff #fff transparent transparent;
+  animation: rotation 1.5s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }

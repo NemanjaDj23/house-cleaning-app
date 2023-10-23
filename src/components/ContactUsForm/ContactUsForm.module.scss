@@ -1,0 +1,20 @@
+.formGroup {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 10px;
+
+
+  .errorMessage {
+    position: absolute;
+    bottom: -30px;
+    color: #e33131;
+    font-size: 0.8rem;
+  }
+}
+
+.groupWrapper {
+  display: flex;
+  justify-content: space-between;
+}
