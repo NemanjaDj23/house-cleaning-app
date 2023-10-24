@@ -8,6 +8,7 @@ import FAQSection from './components/FAQSection/FAQSection';
 import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 import PricingAndServicesSection from './components/PricingAndServicesSection/PricingAndServicesSection';
 import LogoCoverSection from './components/LogoCoverSection/LogoCoverSection';
+import OurClientsSection from './components/OurClientsSection/OurClientsSection';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <LogoCoverSection />
       <FiveReasonsSection />
       <PricingAndServicesSection />
+      <OurClientsSection />
       <FAQSection />
       <OurStandardsSection />
       <ContactUsForm />
