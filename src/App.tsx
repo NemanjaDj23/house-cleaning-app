@@ -5,6 +5,7 @@ import OurStandardsSection from './components/OurStandardsSection/OurStandardsSe
 import FiveReasonsSection from './components/FIveReasonsSection/FiveReasonsSection';
 import ContactUsForm from './components/ContactUsForm/ContactUsForm';
 import FAQSection from './components/FAQSection/FAQSection';
+import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <FAQSection />
       <OurStandardsSection />
       <ContactUsForm />
+      <WhatsAppChat />
     </div>
   );
 }

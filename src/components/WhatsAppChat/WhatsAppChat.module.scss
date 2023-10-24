@@ -1,0 +1,22 @@
+.whatsAppChatBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #25d366;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 0 9px 20px -5px #bebebe;
+  z-index: 1000;
+
+  &:hover {
+    color: #fff;
+    background-color: #09c64f;
+  }
+}

@@ -9,6 +9,10 @@ function FAQSection() {
         <FAQItem />
         <FAQItem />
         <FAQItem />
+        <FAQItem />
+        <FAQItem />
+        <FAQItem />
+        <FAQItem />
       </div>
     </section>
   );

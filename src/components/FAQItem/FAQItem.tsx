@@ -9,7 +9,7 @@ function FAQItem() {
   return (
     <div className={styles.faqAccordion}>
       <div onClick={() => setIsActive(!isActive)} className={styles.faqItemTrigger}>
-        <h3>hsdjagdagd sadasd asdasd?</h3>
+        <h3>Hsdjagdagd sadasd asdasd sdfsdf ssd?</h3>
         <FontAwesomeIcon
           style={{
             transform: isActive ? 'rotateX(180deg)' : 'rotateX(0deg)',
@@ -28,7 +28,7 @@ function FAQItem() {
         className={styles.faqItemContent}
       >
         <p>
-          hsfgds fs dhfgsjdf ghjsg dfhsdfjgdsf hsdf ghjsg dfh sfhsgdjfgsfgsf hsdf jgsfhgs f sf sdfsf
+          Hsfgds fs dhfgsjdf ghjsg dfhsdfjgdsf hsdf ghjsg dfh sfhsgdjfgsfgsf hsdf jgsfhgs f sf sdfsf
           fhsfkhjs dfjkshfd jshf jkshdf jshdf jhs fjh sfdjhsjh sklfh fhljsaf hjkf dgdfgdf sd fsjhf
           jdfkhjs dfhs dfj sjdfh sjhf jsdfjsfj sjdf sjdhf jshdf jshd fjhs fj jskdfh sjhdf jshdf hsd
           fh sfhksjhf sjhf jshf shf sjhf sdfjh sfjh sdfj
