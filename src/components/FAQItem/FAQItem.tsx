@@ -3,13 +3,18 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import styles from './FAQItem.module.scss';
 import { useRef, useState } from 'react';
 
-function FAQItem() {
+type FAQItemProps = {
+  title: string;
+  content: string;
+};
+
+function FAQItem({ title, content }: FAQItemProps) {
   const [isActive, setIsActive] = useState(false);
   const contentEl = useRef<HTMLDivElement>(null);
   return (
     <div className={styles.faqAccordion}>
       <div onClick={() => setIsActive(!isActive)} className={styles.faqItemTrigger}>
-        <h3>Hsdjagdagd sadasd asdasd sdfsdf ssd?</h3>
+        <h3>{title}</h3>
         <FontAwesomeIcon
           style={{
             transform: isActive ? 'rotateX(180deg)' : 'rotateX(0deg)',
@@ -27,12 +32,7 @@ function FAQItem() {
         }
         className={styles.faqItemContent}
       >
-        <p>
-          Hsfgds fs dhfgsjdf ghjsg dfhsdfjgdsf hsdf ghjsg dfh sfhsgdjfgsfgsf hsdf jgsfhgs f sf sdfsf
-          fhsfkhjs dfjkshfd jshf jkshdf jshdf jhs fjh sfdjhsjh sklfh fhljsaf hjkf dgdfgdf sd fsjhf
-          jdfkhjs dfhs dfj sjdfh sjhf jsdfjsfj sjdf sjdhf jshdf jshd fjhs fj jskdfh sjhdf jshdf hsd
-          fh sfhksjhf sjhf jshf shf sjhf sdfjh sfjh sdfj
-        </p>
+        <p>{content}</p>
       </div>
     </div>
   );
