@@ -1,6 +1,11 @@
 .navbarWrapper {
   display: flex;
+  align-items: center;
   gap: 2rem;
+
+  .logoWrapper {
+    width: 4.8rem;
+  }
 }
 
 .sendUsMailBtn {

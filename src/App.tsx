@@ -6,6 +6,7 @@ import FiveReasonsSection from './components/FIveReasonsSection/FiveReasonsSecti
 import ContactUsForm from './components/ContactUsForm/ContactUsForm';
 import FAQSection from './components/FAQSection/FAQSection';
 import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
+import PricingAndServicesSection from './components/PricingAndServicesSection/PricingAndServicesSection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <HeroSection />
       <FiveReasonsSection />
+      <PricingAndServicesSection />
       <FAQSection />
       <OurStandardsSection />
       <ContactUsForm />

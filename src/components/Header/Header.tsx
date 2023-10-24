@@ -1,14 +1,17 @@
 import styles from './Header.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import logo from '../../images/logo1.png';
 
 function Header() {
   return (
     <header>
       <div className={styles.navbarWrapper}>
-        <a href='/'>Logo</a>
+        <a className={styles.logoWrapper} href='/'>
+          <img src={logo} />
+        </a>
         <nav>
-          <a href='/'>Cenovnik i usluge</a>
+          <a href='#pricing-and-services'>Cenovnik i usluge</a>
           <a href='#faq'>Najčešća pitanja</a>
         </nav>
       </div>
