@@ -7,7 +7,7 @@ import styles from './FiveReasonesSection.module.scss';
 
 function FiveReasonsSection() {
   return (
-    <section>
+    <section className='bg-grey pt-5'>
       <h1>5 razloga zašto izabrati MS sjaj, još danas</h1>
       <div className={styles.wrapper}>
         <div className={styles.itemWrapper}>

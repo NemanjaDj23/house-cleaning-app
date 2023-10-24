@@ -8,7 +8,8 @@ function WhatsAppChat() {
       aria-label='Chat on WhatsApp'
       href='https://wa.me/+381621395380'
       target='_blank'
-      className={styles.whatsAppChatBtn} rel="noreferrer"
+      className={styles.whatsAppChatBtn}
+      rel='noreferrer'
     >
       <FontAwesomeIcon icon={faWhatsapp} />
     </a>

@@ -3,7 +3,7 @@ import cleaningImg from '../../images/cleaning-2.svg';
 
 function OurStandardsSection() {
   return (
-    <section>
+    <section className='bg-grey'>
       <div className={styles.wrapper}>
         <div className={styles.imgWrapper}>
           <img src={cleaningImg} alt='cleaning-2' className={styles.imageHero} />

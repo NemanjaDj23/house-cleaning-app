@@ -8,7 +8,7 @@ function Header() {
     <header>
       <div className={styles.navbarWrapper}>
         <a className={styles.logoWrapper} href='/'>
-          <img src={logo} />
+          <img src={logo} alt='ms-sjaj-logo' />
         </a>
         <nav>
           <a href='#pricing-and-services'>Cenovnik i usluge</a>

@@ -3,7 +3,7 @@ import styles from './HeroSection.module.scss';
 
 function HeroSection() {
   return (
-    <section className='pt-5'>
+    <section className='pt-5 pb-5'>
       <div className={styles.wrapper}>
         <div className={styles.innerWrapper}>
           <h1>Tvoja #1 agencija za čišćenje</h1>
