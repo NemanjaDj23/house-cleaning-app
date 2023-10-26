@@ -9,20 +9,22 @@ import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 import PricingAndServicesSection from './components/PricingAndServicesSection/PricingAndServicesSection';
 import LogoCoverSection from './components/LogoCoverSection/LogoCoverSection';
 import OurClientsSection from './components/OurClientsSection/OurClientsSection';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div>
       <Header />
       <HeroSection />
-      <LogoCoverSection />
       <FiveReasonsSection />
+      <LogoCoverSection />
       <PricingAndServicesSection />
       <OurClientsSection />
       <FAQSection />
       <OurStandardsSection />
       <ContactUsForm />
       <WhatsAppChat />
+      <Footer />
     </div>
   );
 }

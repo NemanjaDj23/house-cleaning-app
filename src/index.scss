@@ -34,11 +34,29 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  padding: 1rem 2rem;
   width: 100%;
+  padding: 1rem 2rem;
   background-color: #fff;
   z-index: 999999999;
   box-shadow: 0 1px 10px -5px #bebebe;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 8rem 3rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ebebeb;
+
+  a {
+    color: #1e3f61;
+
+    &:hover {
+      color: #00a5f8;
+    }
+  }
 }
 
 nav {
@@ -233,5 +251,19 @@ textarea {
   }
   100% {
     transform: rotate(-360deg);
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  footer {
+    padding: 1rem 3rem 3rem 6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
   }
 }

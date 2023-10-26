@@ -16,8 +16,8 @@ function Header() {
         </nav>
       </div>
       <div className='flex align-items'>
-        <a href='tel:+381641196856'>
-          <div>Pozovi +381 64 1196856</div>
+        <a href='tel:+381643937000'>
+          <div>Pozovi +381 64 3937000</div>
         </a>
         <a className={styles.sendUsMailBtn} href='#contact-form'>
           <FontAwesomeIcon icon={faEnvelope} />

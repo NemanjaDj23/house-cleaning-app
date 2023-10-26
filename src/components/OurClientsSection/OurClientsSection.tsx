@@ -2,7 +2,7 @@ import styles from './OurClientsSection.module.scss';
 
 function OurClientsSection() {
   return (
-    <section className={styles.ourClientSection}>
+    <section id='our-clients' className={styles.ourClientSection}>
       <div className={styles.clientLogoWrapper}>
         <img
           src='https://assets.website-files.com/5f5be145dea76ffe978023b7/5f5be145dea76fc4f08023d8_Yelp_Logo.svg'
