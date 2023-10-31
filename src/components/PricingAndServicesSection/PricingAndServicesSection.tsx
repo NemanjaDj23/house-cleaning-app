@@ -29,7 +29,7 @@ function PricingAndServicesSection() {
           <li>
             <FontAwesomeIcon className={styles.iconBefore} icon={faAnglesRight} />
             <span>Redovno</span> čišćenje zgrada cena na mesečnom nivou (1 x nedeljno) počinje
-            <span className='float'> od 300.oo rsd/ stanu</span>
+            <span className='float'> od 250.oo rsd/ stanu</span>
           </li>
           <li>
             <FontAwesomeIcon className={styles.iconBefore} icon={faAnglesRight} />

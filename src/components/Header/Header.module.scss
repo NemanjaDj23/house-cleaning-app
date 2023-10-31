@@ -7,25 +7,3 @@
     width: 4.8rem;
   }
 }
-
-.sendUsMailBtn {
-  display: inline-block;
-  margin-left: 1.6rem;
-  padding: 12px 20px;
-  font-weight: 500;
-  color: #fff;
-  background-color: #49c2ff;
-  letter-spacing: .6px;
-  border-radius: 3px;
-  box-shadow: 0 9px 20px -5px #bebebe;
-  transition: all .3s ease;
-
-  span {
-    padding: 0 12px 0 8px;
-  }
-
-  &:hover {
-    color: #fff;
-    background-color: #00a5f8;
-  }
-}

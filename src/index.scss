@@ -197,6 +197,14 @@ textarea {
   float: right;
 }
 
+.float-btn {
+  float: right;
+}
+
+.top-50 {
+  top: 50px;
+}
+
 .loader {
   width: 24px;
   height: 24px;
@@ -236,6 +244,49 @@ textarea {
   animation: rotation 1.5s linear infinite;
 }
 
+.sendUsMailBtn {
+  position: relative;
+  display: inline-block;
+  margin-left: 1.6rem;
+  padding: 12px 20px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #49c2ff;
+  letter-spacing: .6px;
+  border-radius: 3px;
+  box-shadow: 0 9px 20px -5px #bebebe;
+  transition: all .3s ease;
+
+  &__mb-80 {
+    margin-bottom: 80px;
+  }
+
+  span {
+    padding: 0 12px 0 8px;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #00a5f8;
+  }
+
+  .animation1 {
+    position: absolute;
+    bottom: -90px;
+    left: -58px;
+    width: 100px;
+    z-index: -1;
+  }
+
+  .animation2 {
+    position: absolute;
+    top: -90px;
+    right: 60px;
+    width: 100px;
+    z-index: -1;
+  }
+}
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -259,11 +310,33 @@ textarea {
   footer {
     padding: 1rem 3rem 3rem 6rem;
   }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .float {
+    float: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   footer {
     display: flex;
     flex-direction: column;
+  }
+
+  ul {
+    li {
+      padding-top: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    padding: 0rem;
   }
 }

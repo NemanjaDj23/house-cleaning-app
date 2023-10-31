@@ -1,12 +1,15 @@
 .wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   max-width: 1230px;
 
   .itemWrapper {
     max-width: 18%;
+    min-width: 12rem;
+    padding: 0 1rem;
     color: #929292;
     text-align: center;
     transition: all .4s ease;
@@ -30,3 +33,17 @@
 }
 
 
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    .itemWrapper {
+      max-width: 80%;
+    }
+  }
+}

@@ -133,7 +133,7 @@ function ContactUsForm() {
             <span className={styles.errorMessage}>Poruka {formErrors?.message}</span>
           )}
         </div>
-        <button type='submit' className='float' disabled={isLoading}>
+        <button type='submit' className='float-btn' disabled={isLoading}>
           <span className='flex align-items'>
             <span className='mr-10'>Pošalji</span>
             {isLoading ? <span className='loader'></span> : <FontAwesomeIcon icon={faEnvelope} />}

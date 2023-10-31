@@ -19,7 +19,7 @@ function Header() {
         <a href='tel:+381643937000'>
           <div>Pozovi +381 64 3937000</div>
         </a>
-        <a className={styles.sendUsMailBtn} href='#contact-form'>
+        <a className='sendUsMailBtn' href='#contact-form'>
           <FontAwesomeIcon icon={faEnvelope} />
           <span>Pošalji nam mail</span>
           <FontAwesomeIcon icon={faArrowRightLong} />

@@ -12,7 +12,7 @@ function OurStandardsSection() {
           <h1>Održavamo visoke standarde u čišćenju vašeg prostora</h1>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Koristimo kvalitena i proverena sredstva za čišćenje, svakog puta
+            Koristimo kvalitena i proverena sredstva za čišćenje
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>

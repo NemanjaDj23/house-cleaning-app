@@ -1,5 +1,8 @@
 import cleaningImg from '../../images/cleaning-1.svg';
+import animation1 from '../../images/clining.gif';
 import styles from './HeroSection.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function HeroSection() {
   return (
@@ -9,7 +12,7 @@ function HeroSection() {
           <h1>Tvoja #1 agencija za čišćenje</h1>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Visoko obučeni zaposleni sa punim radnim vremenom (ne podizvođači)
+            Visoko obučeni zaposleni sa punim radnim vremenom
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
@@ -19,6 +22,17 @@ function HeroSection() {
             <span className={styles.textSpan}>✔</span>
             Transparentne cene, bez skrivenih naknada
           </div>
+          <div>
+            <span className={styles.textSpan}>✔</span>
+            Koristimo eco-friendly sredstva za čišćenju
+          </div>
+
+          <a className='sendUsMailBtn sendUsMailBtn__mb-80 top-50' href='#contact-form'>
+            <FontAwesomeIcon icon={faEnvelope} />
+            <span>Pošalji nam mail</span>
+            <FontAwesomeIcon icon={faArrowRightLong} />
+            <img className='animation1' src={animation1} alt='clining-animation1' />
+          </a>
         </div>
         <div className={styles.imgWrapper}>
           <img src={cleaningImg} alt='cleaning-1' className={styles.imageHero} />
