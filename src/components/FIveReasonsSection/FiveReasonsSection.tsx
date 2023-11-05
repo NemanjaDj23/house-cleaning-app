@@ -16,7 +16,7 @@ function FiveReasonsSection() {
         </div>
         <div className={styles.itemWrapper}>
           <img className={styles.itemIcon} src={item2} alt='icon-2' />
-          <div>Uvek koristimo kvalitena i proverena sredstva za čišćenje kao i opremu</div>
+          <div>Uvek koristimo kvalitetna i proverena sredstva za čišćenje kao i opremu</div>
         </div>
         <div className={styles.itemWrapper}>
           <img className={styles.itemIcon} src={item3} alt='icon-3' />

@@ -1,7 +1,7 @@
 import styles from './Header.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../images/logo1.png';
+import logo from '../../images/logo.png';
 import useMatchMedia from '../../hooks/useMatchMedia';
 import { useState } from 'react';
 

@@ -185,9 +185,9 @@ textarea {
   padding-bottom: 5rem;
 }
 
-.heroSection {
-  padding: 0 0 5rem;
-}
+//.heroSection {
+//  padding: 0 0 5rem;
+//}
 
 .bg-grey {
   background-color: #f9f9f9;
@@ -339,7 +339,9 @@ textarea {
   html {
     font-size: 16px;
   }
-
+  section {
+    padding: 3rem 2rem;
+  }
   footer {
     padding: 1rem 3rem 3rem 3rem;
     display: flex;

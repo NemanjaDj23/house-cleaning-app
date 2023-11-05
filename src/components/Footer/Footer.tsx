@@ -1,4 +1,4 @@
-import logo from '../../images/logo1.png';
+import logo from '../../images/logo.png';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
