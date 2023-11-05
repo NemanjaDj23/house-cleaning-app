@@ -37,7 +37,7 @@ header {
   width: 100%;
   padding: 1rem 2rem;
   background-color: #fff;
-  z-index: 999999999;
+  z-index: 999999;
   box-shadow: 0 1px 10px -5px #bebebe;
 }
 
@@ -261,6 +261,15 @@ textarea {
     margin-bottom: 80px;
   }
 
+  &__mr-80 {
+    margin-right: 80px;
+  }
+
+  &__mobile {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
   span {
     padding: 0 12px 0 8px;
   }
@@ -323,16 +332,17 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
   footer {
+    padding: 1rem 3rem 3rem 3rem;
     display: flex;
     flex-direction: column;
   }
 
-  ul {
-    li {
-      padding-top: 1rem;
-    }
-  }
+
 }
 
 @media only screen and (max-width: 600px) {

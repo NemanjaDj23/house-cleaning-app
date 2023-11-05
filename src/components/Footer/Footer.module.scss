@@ -29,7 +29,6 @@
 
   .socialIcon {
     padding-right: .8rem;
-    color: #1e3f61;
   }
 }
 
@@ -68,8 +67,8 @@
   }
 
   .navAndSocialWrapper {
-    width: 90%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
     margin: 2rem auto;
   }
 
@@ -83,6 +82,7 @@
   .navAndSocialWrapper {
     flex-direction: column;
     width: auto;
+    margin-left: 0;
   }
 
 }

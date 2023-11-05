@@ -6,7 +6,7 @@ import styles from './Footer.module.scss';
 import useMatchMedia from '../../hooks/useMatchMedia';
 
 function Footer() {
-  const isDesktopResolution = useMatchMedia('(max-width:600px)', true);
+  const isMobileResolution = useMatchMedia('(max-width:600px)', true);
   return (
     <footer>
       <a href='/' className={styles.logoWrapper}>
@@ -45,7 +45,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.copyRightWrapper}>
-        {isDesktopResolution ? (
+        {isMobileResolution ? (
           <span>© 2023, 11MSsjaj All rights reserved.</span>
         ) : (
           <span>Copyright © 2023 Kragujevac Serbia, 11MSsjaj All rights reserved.</span>
