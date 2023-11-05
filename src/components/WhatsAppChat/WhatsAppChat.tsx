@@ -6,7 +6,7 @@ function WhatsAppChat() {
   return (
     <a
       aria-label='Chat on WhatsApp'
-      href='https://wa.me/+381621395380'
+      href='https://wa.me/+381643937000'
       target='_blank'
       className={styles.whatsAppChatBtn}
       rel='noreferrer'
