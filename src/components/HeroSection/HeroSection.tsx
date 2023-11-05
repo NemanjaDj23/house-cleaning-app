@@ -7,7 +7,7 @@ import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function HeroSection() {
   return (
-    <section className='pt-5 pb-5'>
+    <section className='heroSection'>
       <div className={styles.gifWrapper}>
         <img src={cleaningGif} alt='glraning-gif' />
       </div>

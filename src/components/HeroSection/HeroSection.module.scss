@@ -3,6 +3,7 @@
   flex-direction: row;
   width: 100%;
   max-width: 1230px;
+  padding: 0 2rem;
 }
 
 .innerWrapper {
@@ -25,6 +26,10 @@
   margin-right: 5px;
 }
 
+
+.gifWrapper {
+  padding-bottom: 2rem;
+}
 
 @media only screen and (max-width: 992px) {
   .wrapper {
@@ -53,9 +58,6 @@
 
 
 @media only screen and (max-width: 600px) {
-  .gifWrapper {
-    margin-bottom: 2rem;
-  }
   .innerWrapper {
     width: 100%;
   }
