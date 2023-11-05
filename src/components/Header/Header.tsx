@@ -79,6 +79,16 @@ function Header() {
             </a>
           </li>
           <li role='presentation'>
+            <a onClick={() => setMobileNavigationOpen(!mobileNavigationOpen)} href='#our-clients'>
+              Naši klijenti
+            </a>
+          </li>
+          <li role='presentation'>
+            <a onClick={() => setMobileNavigationOpen(!mobileNavigationOpen)} href='#contact-form'>
+              Kontakt forma
+            </a>
+          </li>
+          <li role='presentation'>
             <a href='tel:+381643937000'>
               <div>Pozovi +381 64 3937000</div>
             </a>
