@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 992px) {
   .wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .innerWrapper {
@@ -43,6 +43,7 @@
   .imgWrapper {
     width: 100%;
     text-align: center;
+    margin: 2rem auto;
   }
 }
 
@@ -50,9 +51,6 @@
 @media only screen and (max-width: 768px) {
   .innerWrapper {
     width: 85%;
-  }
-  .imgWrapper {
-    margin-top: 3rem;
   }
 }
 
