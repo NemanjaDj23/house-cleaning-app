@@ -1,4 +1,5 @@
 import cleaningImg from '../../images/cleaning-1.svg';
+import cover from '../../images/heroSectionCover.jpg';
 import animation1 from '../../images/clining.gif';
 import styles from './HeroSection.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,10 +7,10 @@ import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function HeroSection() {
   return (
-    <section>
-      {/*<div className={styles.gifWrapper}>*/}
-      {/*  <img src={cleaningGif} alt='glraning-gif' />*/}
-      {/*</div>*/}
+    <section className='heroSection'>
+      <div className={styles.gifWrapper}>
+        <img src={cover} alt='glraning-gif' />
+      </div>
       <div className={styles.wrapper}>
         <div className={styles.innerWrapper}>
           <h1>Tvoja broj 1 agencija za čišćenje</h1>

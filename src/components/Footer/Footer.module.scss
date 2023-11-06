@@ -1,5 +1,5 @@
 .logoWrapper {
-  width: 10rem;
+  width: 8rem;
 }
 
 .navAndSocialWrapper {
@@ -62,10 +62,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .logoWrapper {
-    width: 15rem;
-  }
-
   .navAndSocialWrapper {
     width: 100%;
     justify-content: space-evenly;
