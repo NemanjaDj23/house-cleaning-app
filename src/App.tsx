@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/Header/Header';
 import HeroSection from './components/HeroSection/HeroSection';
 import OurStandardsSection from './components/OurStandardsSection/OurStandardsSection';
@@ -10,22 +10,40 @@ import PricingAndServicesSection from './components/PricingAndServicesSection/Pr
 import LogoCoverSection from './components/LogoCoverSection/LogoCoverSection';
 import OurClientsSection from './components/OurClientsSection/OurClientsSection';
 import Footer from './components/Footer/Footer';
+import animation1 from './images/cleaning.gif';
 
 function App() {
+  const [showCleaningAnimation, setShowCleaningAnimation] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowCleaningAnimation(false);
+    }, 3000);
+  }, []);
+
   return (
-    <div>
-      <Header />
-      <HeroSection />
-      <FiveReasonsSection />
-      <LogoCoverSection />
-      <PricingAndServicesSection />
-      <OurClientsSection />
-      <FAQSection />
-      <OurStandardsSection />
-      <ContactUsForm />
-      <WhatsAppChat />
-      <Footer />
-    </div>
+    <>
+      {showCleaningAnimation && (
+        <div className='animationWrapper'>
+          <img className='animation1' src={animation1} alt='clining-animation1' />
+        </div>
+      )}
+      {!showCleaningAnimation && (
+        <div>
+          <Header />
+          <HeroSection />
+          <FiveReasonsSection />
+          <LogoCoverSection />
+          <PricingAndServicesSection />
+          <OurClientsSection />
+          <FAQSection />
+          <OurStandardsSection />
+          <ContactUsForm />
+          <WhatsAppChat />
+          <Footer />
+        </div>
+      )}
+    </>
   );
 }
 

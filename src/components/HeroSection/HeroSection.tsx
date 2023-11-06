@@ -1,6 +1,6 @@
 import cleaningImg from '../../images/cleaning-1.svg';
 import cover from '../../images/heroSectionCover.jpg';
-import animation1 from '../../images/clining.gif';
+// import animation1 from '../../images/cleaning.gif';
 import styles from './HeroSection.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -8,8 +8,8 @@ import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 function HeroSection() {
   return (
     <section className='heroSection'>
-      <div className={styles.gifWrapper}>
-        <img src={cover} alt='glraning-gif' />
+      <div>
+        <img src={cover} alt='cover' />
       </div>
       <div className={styles.wrapper}>
         <div className={styles.innerWrapper}>
@@ -35,7 +35,7 @@ function HeroSection() {
             <FontAwesomeIcon icon={faEnvelope} />
             <span>Pošalji nam mail</span>
             <FontAwesomeIcon icon={faArrowRightLong} />
-            <img className='animation1' src={animation1} alt='clining-animation1' />
+            {/*<img className='animation1' src={animation1} alt='clining-animation1' />*/}
           </a>
         </div>
         <div className={styles.imgWrapper}>
