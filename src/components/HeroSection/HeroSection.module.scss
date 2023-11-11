@@ -3,7 +3,13 @@
   flex-direction: row;
   width: 100%;
   max-width: 1230px;
-  padding: 2rem 2rem 0 2rem;
+  padding: 4rem 2rem 0 2rem;
+}
+
+.tiltImg {
+  .innerElement {
+    width: 70vw;
+  }
 }
 
 .innerWrapper {
@@ -15,10 +21,6 @@
 
 .imgWrapper {
   width: 40%;
-}
-
-.imageHero {
-  max-height: 350px;
 }
 
 .textSpan {

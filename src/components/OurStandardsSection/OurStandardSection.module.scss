@@ -16,8 +16,10 @@
   width: 40%;
 }
 
-.imageHero {
-  max-height: 350px;
+.tiltImg {
+  .innerElement {
+    width: 70vw;
+  }
 }
 
 .textSpan {

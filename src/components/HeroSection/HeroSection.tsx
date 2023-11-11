@@ -1,16 +1,12 @@
 import cleaningImg from '../../images/cleaning-1.svg';
-import cover from '../../images/heroSectionCover.jpg';
-// import animation1 from '../../images/cleaning.gif';
 import styles from './HeroSection.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Tilt from 'react-parallax-tilt';
 
 function HeroSection() {
   return (
     <section className='heroSection'>
-      <div>
-        <img src={cover} alt='cover' />
-      </div>
       <div className={styles.wrapper}>
         <div className={styles.innerWrapper}>
           <h1>Tvoja broj 1 agencija za čišćenje</h1>
@@ -39,7 +35,17 @@ function HeroSection() {
           </a>
         </div>
         <div className={styles.imgWrapper}>
-          <img src={cleaningImg} alt='cleaning-1' className={styles.imageHero} />
+          <Tilt
+            className='tiltImg'
+            tiltMaxAngleX={35}
+            tiltMaxAngleY={35}
+            perspective={900}
+            scale={1.1}
+            transitionSpeed={2000}
+            gyroscope={true}
+          >
+            <img src={cleaningImg} alt='cleaning-2' className={styles.innerElement} />
+          </Tilt>
         </div>
       </div>
     </section>

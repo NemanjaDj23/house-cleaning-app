@@ -1,12 +1,23 @@
 import styles from './OurStandardSection.module.scss';
 import cleaningImg from '../../images/cleaning-2.svg';
+import Tilt from 'react-parallax-tilt';
 
 function OurStandardsSection() {
   return (
     <section className='bg-grey'>
       <div className={styles.wrapper}>
         <div className={styles.imgWrapper}>
-          <img src={cleaningImg} alt='cleaning-2' className={styles.imageHero} />
+          <Tilt
+            className='tiltImg'
+            tiltMaxAngleX={35}
+            tiltMaxAngleY={35}
+            perspective={900}
+            scale={1.1}
+            transitionSpeed={2000}
+            gyroscope={true}
+          >
+            <img src={cleaningImg} alt='cleaning-2' className={styles.innerElement} />
+          </Tilt>
         </div>
         <div className={styles.innerWrapper}>
           <h1>Održavamo visoke standarde u čišćenju vašeg prostora</h1>
