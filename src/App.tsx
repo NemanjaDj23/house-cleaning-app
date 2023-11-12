@@ -11,6 +11,7 @@ import LogoCoverSection from './components/LogoCoverSection/LogoCoverSection';
 import OurClientsSection from './components/OurClientsSection/OurClientsSection';
 import Footer from './components/Footer/Footer';
 import animation1 from './images/cleaning.gif';
+import ImageSlider from './components/ImageSlider/ImageSlider';
 
 function App() {
   const [showCleaningAnimation, setShowCleaningAnimation] = useState(true);
@@ -31,6 +32,7 @@ function App() {
       {!showCleaningAnimation && (
         <div>
           <Header />
+          <ImageSlider />
           <HeroSection />
           <FiveReasonsSection />
           <LogoCoverSection />
