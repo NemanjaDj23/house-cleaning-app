@@ -20,7 +20,7 @@ const ImageSlider = () => {
         <div
           key={index}
           style={{
-            height: `${isTabletResolution} ? auto : 85vh`,
+            height: `${isTabletResolution ? 'auto' : '85vh'}`,
             maxWidth: '1200px',
             margin: '0 auto',
           }}
