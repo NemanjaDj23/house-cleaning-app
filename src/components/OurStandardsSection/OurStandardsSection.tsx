@@ -1,5 +1,5 @@
 import styles from './OurStandardSection.module.scss';
-import cleaningImg from '../../images/cleaning-2.svg';
+import cleaningImg from '../../images/ourStandard.png';
 import Tilt from 'react-parallax-tilt';
 
 function OurStandardsSection() {

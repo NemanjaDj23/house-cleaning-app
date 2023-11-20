@@ -7,7 +7,6 @@ import ContactUsForm from './components/ContactUsForm/ContactUsForm';
 import FAQSection from './components/FAQSection/FAQSection';
 import WhatsAppChat from './components/WhatsAppChat/WhatsAppChat';
 import PricingAndServicesSection from './components/PricingAndServicesSection/PricingAndServicesSection';
-import LogoCoverSection from './components/LogoCoverSection/LogoCoverSection';
 import OurClientsSection from './components/OurClientsSection/OurClientsSection';
 import Footer from './components/Footer/Footer';
 import animation1 from './images/cleaning.gif';
@@ -35,7 +34,6 @@ function App() {
           <ImageSlider />
           <HeroSection />
           <FiveReasonsSection />
-          <LogoCoverSection />
           <PricingAndServicesSection />
           <OurClientsSection />
           <FAQSection />

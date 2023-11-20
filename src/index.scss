@@ -54,7 +54,7 @@ footer {
     color: #1e3f61;
 
     &:hover {
-      color: #00a5f8;
+      color: rgba(223, 152, 47, 1);
     }
   }
 }
@@ -71,7 +71,7 @@ a {
   transition: 0.2s ease;
 
   &:hover {
-    color: #00a5f8;
+    color: #df982f;
   }
 }
 
@@ -82,7 +82,7 @@ button {
   font-weight: 500;
   font-size: 1rem;
   color: #fff;
-  background-color: #49c2ff;
+  background-color: rgba(223, 152, 47, .8);
   letter-spacing: .6px;
   border-radius: 3px;
   box-shadow: 0 9px 20px -5px #bebebe;
@@ -93,7 +93,7 @@ button {
   vertical-align: center;
 
   &:hover {
-    background-color: #00a5f8;
+    background-color: rgba(223, 152, 47, 1);
   }
 
   &:disabled {
@@ -163,7 +163,7 @@ input, textarea {
   border-radius: 6px;
   line-height: 1.5;
   letter-spacing: 0.01em;
-  outline-color: #00a5f8;
+  outline-color: #df982f;
 }
 
 textarea {
@@ -241,7 +241,7 @@ textarea {
   bottom: 0;
   margin: auto;
   border: 3px solid;
-  border-color: transparent transparent #00a5f8 #00a5f8;
+  border-color: transparent transparent #df982f #df982f;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -264,7 +264,7 @@ textarea {
   padding: 12px 20px;
   font-weight: 500;
   color: #fff;
-  background-color: #49c2ff;
+  background-color: rgba(223, 152, 47, .8);
   letter-spacing: .6px;
   border-radius: 3px;
   box-shadow: 0 9px 20px -5px #bebebe;
@@ -289,7 +289,7 @@ textarea {
 
   &:hover {
     color: #fff;
-    background-color: #00a5f8;
+    background-color: rgba(223, 152, 47, 1);
   }
 
   .animation1 {
