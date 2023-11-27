@@ -30,19 +30,14 @@ const priceAndServicesObj = [
   },
   {
     id: 5,
-    text: `Pružamo kvalitetnu uslugu u održavanju vaših dvorišta i zelenih površina. Pored košenja trave, skupljanje lišća, otklanjanja korova, pružamo usluge orezivanja živih ograda i krošnje drveća.\n
-  Cene pružanja usluga se kreiraju nakon uvida našeg zaposlenog u veličinu dvorišta i u zavisnosti od vrste uređivanja dvoršta.`,
-  },
-  {
-    id: 6,
-    text: `Lokacije od Kragujevca udaljenje vise od 5km naplacuje se 50din po predjenom kilometru.
-  Dobinsko pranje stolica od 400rsd\n
-  Dubinsko pranje fotelja od 1200rsd\n
-  Dubinsko pranke dvoseda od 1600rsd\n
-  Dubinsko pranje troseda od 2200rsd\n
-  Dubinsko pranje duseka za krevetac od 500rsd\n
-  Dubinsko pranje duseka za samac krevet od 1000rsd\n
-  Dubinsko pranje duseka za bracni krevet od 1700rsd`,
+    text: `Lokacije od Kragujevca udaljenje vise od 5km naplacuje se 70rsd po predjenom kilometru.
+  Dobinsko pranje stolica od 800rsd\n
+  Dubinsko pranje fotelja od 1000-2000rsd\n
+  Dubinsko pranke dvoseda od 1500-2000rsd\n
+  Dubinsko pranje troseda od 2500-3500rsd\n
+  Dubinsko pranje duseka za krevetac od 700-1000rsd\n
+  Dubinsko pranje duseka za samac krevet od 1200-2000rsd\n
+  Dubinsko pranje duseka za bracni krevet od 2000-3500rsd`,
   },
 ];
 
@@ -91,15 +86,9 @@ function PricingAndServicesSection() {
             Čišćenje nakon građevinskih radova
           </button>
         </div>
-        <div className={styles.row}>
+        <div className={styles.rowCenter}>
           <button
             onClick={() => handleBtnClick(5)}
-            className={styles.btn + ' ' + (selectedItem === 5 ? styles.active : '')}
-          >
-            Održavanje dvorišta
-          </button>
-          <button
-            onClick={() => handleBtnClick(6)}
             className={styles.btn + ' ' + (selectedItem === 6 ? styles.active : '')}
           >
             Dubinsko čišćenje
