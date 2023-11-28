@@ -15,7 +15,7 @@ const ImageSlider = () => {
   const images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7];
 
   return (
-    <Zoom scale={1.4} indicators={false} arrows={false} pauseOnHover={false}>
+    <Zoom scale={1.4} indicators={false} arrows={false} pauseOnHover={false} duration={800}>
       {images.map((imageSrc, index) => (
         <div
           key={index}
