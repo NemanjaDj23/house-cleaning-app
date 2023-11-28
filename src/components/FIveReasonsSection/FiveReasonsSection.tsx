@@ -3,6 +3,7 @@ import item2 from '../../icons/item-reasone-2.svg';
 import item3 from '../../icons/item-reasone-3.svg';
 import item4 from '../../icons/item-reasone-4.svg';
 import item5 from '../../icons/item-reasone-5.svg';
+import img1 from '../../images/1.png';
 import styles from './FiveReasonesSection.module.scss';
 
 function FiveReasonsSection() {
@@ -31,6 +32,7 @@ function FiveReasonsSection() {
           <div>100% garantujemo bezbednost vaše imovine prilikom čišćenje</div>
         </div>
       </div>
+      <img className={styles.imageAbs} src={img1} alt='chage' />
     </section>
   );
 }

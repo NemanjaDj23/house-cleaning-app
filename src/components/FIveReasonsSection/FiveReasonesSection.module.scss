@@ -1,10 +1,12 @@
 .wrapper {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   max-width: 1230px;
+  z-index: 20;
 
   .itemWrapper {
     max-width: 18%;
@@ -30,6 +32,13 @@
       }
     }
   }
+}
+
+.imageAbs {
+  position: absolute;
+  max-height: 280px;
+  bottom: -150px;
+  right: 0;
 }
 
 
