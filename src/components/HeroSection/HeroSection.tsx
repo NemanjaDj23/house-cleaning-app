@@ -8,7 +8,7 @@ function HeroSection() {
     <section className='heroSection'>
       <div className={styles.wrapper}>
         <div className={styles.innerWrapper}>
-          <h1>Tvoja broj 1 agencija za čišćenje</h1>
+          <h1>Tvoja broj jedan agencija za čišćenje</h1>
           <div>
             <span className={styles.textSpan}>✔</span>
             Visoko obučeni zaposleni sa punim radnim vremenom

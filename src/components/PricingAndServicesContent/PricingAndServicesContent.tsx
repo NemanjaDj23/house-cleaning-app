@@ -27,11 +27,11 @@ function PricingAndServicesContent({ text, isActive }: PricingAndServicesContent
       }
       className={styles.selectedContent}
     >
-      <p>
-        {text.split('\n').map((str) => (
-          <p>{str}</p>
+      <div>
+        {text.split('\n').map((str, index) => (
+          <p key={index}>{str}</p>
         ))}
-      </p>
+      </div>
     </div>
   );
 }

@@ -11,7 +11,7 @@ html {
 body {
   width: 100%;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alegreya', sans-serif;
   font-weight: 400;
   line-height: 1.8rem;
   overflow-x: hidden;
@@ -51,7 +51,7 @@ footer {
   border-top: 1px solid #ebebeb;
 
   a {
-    color: #1e3f61;
+    color: #000;
 
     &:hover {
       color: rgba(223, 152, 47, 1);
@@ -125,8 +125,9 @@ img {
 h1 {
   margin-top: 0;
   margin-bottom: 40px;
-  color: #1e3f61;
+  color: #000;
   font-size: 44px;
+
   line-height: 44px;
   font-weight: 700;
   text-transform: uppercase;

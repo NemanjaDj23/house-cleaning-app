@@ -89,7 +89,7 @@ function PricingAndServicesSection() {
         <div className={styles.rowCenter}>
           <button
             onClick={() => handleBtnClick(5)}
-            className={styles.btn + ' ' + (selectedItem === 6 ? styles.active : '')}
+            className={styles.btn + ' ' + (selectedItem === 5 ? styles.active : '')}
           >
             Dubinsko čišćenje
           </button>
