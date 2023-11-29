@@ -4,8 +4,16 @@
   gap: 2rem;
 
   .logoWrapper {
+    position: relative;
     width: 3rem;
   }
+}
+
+.santaCap {
+  min-width: 60px;
+  position: absolute;
+  top: -10px;
+  left: -25px;
 }
 
 
