@@ -15,12 +15,12 @@ function Footer() {
       <div className={styles.navAndSocialWrapper}>
         <div className={styles.navigationWrapper}>
           <nav className={styles.footerNavigation}>
-            <a href='#pricing-and-services'>Cenovnik i usluge</a>
-            <a href='#faq'>Najčešća pitanja</a>
+            <a href='#pricing-and-services'>Ценовник и услуге</a>
+            <a href='#faq'>Најчешћа питања</a>
           </nav>
           <nav className={styles.footerNavigation}>
-            <a href='#our-clients'>Naši klijenti</a>
-            <a href='#contact-form'>Kontakt forma</a>
+            <a href='#our-clients'>Наши клијенти</a>
+            <a href='#contact-form'>Контакт форма</a>
           </nav>
         </div>
         <div>
@@ -51,7 +51,7 @@ function Footer() {
           <span>Copyright © 2023 Kragujevac Serbia, 11MSsjaj All rights reserved.</span>
         )}
         <span>
-          Powered by <a href='mailto: nemanja.djurovic1991@gmail.com'>Nemanja Djurovic</a>
+          Powered by <a href='mailto: nemanja.djurovic1991@gmail.com'>Немања Ђуровић</a>
         </span>
       </div>
     </footer>

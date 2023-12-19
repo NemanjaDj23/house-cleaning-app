@@ -9,27 +9,27 @@ import styles from './FiveReasonesSection.module.scss';
 function FiveReasonsSection() {
   return (
     <section className='bg-grey pt-5'>
-      <h1>Pet razloga zašto izabrati MS sjaj, još danas</h1>
+      <h1>Пет разлога зашто изабрати МС сјај, још данас</h1>
       <div className={styles.wrapper}>
         <div className={styles.itemWrapper}>
           <img className={styles.itemIcon} src={item1} alt='icon-1' />
-          <div>Transparentni ugovori, bez skrivenih dodatnih troškova</div>
+          <div>Транспарентни уговори, без скривених додатних трошкова</div>
         </div>
         <div className={styles.itemWrapper}>
           <img className={styles.itemIcon} src={item2} alt='icon-2' />
-          <div>Uvek koristimo kvalitetna i proverena sredstva za čišćenje kao i opremu</div>
+          <div>Увек користимо квалитетна и проверена средства за чишћење као и опрему</div>
         </div>
         <div className={styles.itemWrapper}>
           <img className={styles.itemIcon} src={item3} alt='icon-3' />
-          <div>Koristimo visokokvalitetna, bezbedna, ali efikasna rešenja za čišćenje</div>
+          <div>Користимо висококвалитетна, безбедна, али ефикасна решења за чишћење</div>
         </div>
         <div className={styles.itemWrapper}>
           <img className={styles.itemIcon} src={item4} alt='icon-4' />
-          <div>Imate mogućnost izbora da koristimo vaša sredstva za čišćenje</div>
+          <div>Имате могућност избора да користимо ваша средства за чишћење</div>
         </div>
         <div className={styles.itemWrapper}>
           <img className={styles.itemIcon} src={item5} alt='icon-5' />
-          <div>100% garantujemo bezbednost vaše imovine prilikom čišćenje</div>
+          <div>100% гарантујемо безбедност ваше имовине приликом чишћење</div>
         </div>
       </div>
       <img className={styles.imageAbs} src={backImg} alt='backgroundImg' />

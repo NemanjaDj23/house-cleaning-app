@@ -8,27 +8,27 @@ function HeroSection() {
     <section className='heroSection'>
       <div className={styles.wrapper}>
         <div className={styles.innerWrapper}>
-          <h1>Tvoja broj jedan agencija za čišćenje</h1>
+          <h1>Твоја број један агенција за чишћење</h1>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Visoko obučeni zaposleni sa punim radnim vremenom
+            Високо обучени запослени са пуним радним временом
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Za svaki posao donosimo naša sredstva za čišćenje i opremu
+            За сваки посао доносимо наша средства за чишћење и опрему
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Transparentne cene, bez skrivenih naknada
+            Транспарентне цене, без скривених накнада
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Koristimo eco-friendly sredstva za čišćenju
+            Користимо eco-friendly средства за чишћењу
           </div>
 
           <a className='sendUsMailBtn sendUsMailBtn__mb-80 top-50' href='#contact-form'>
             <FontAwesomeIcon icon={faEnvelope} />
-            <span>Pošalji nam mail</span>
+            <span>Пошаљи нам маил</span>
             <FontAwesomeIcon icon={faArrowRightLong} />
           </a>
         </div>

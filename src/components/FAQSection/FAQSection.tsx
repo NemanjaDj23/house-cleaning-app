@@ -4,52 +4,52 @@ import styles from './FAQSection.module.scss';
 const faqText = [
   {
     id: 'accordion-1',
-    title: 'Koliko košta vaša usluga čišćenja zgrada?',
+    title: 'Колико кошта ваша услуга чишћења зграда?',
     content:
-      'Cena varira u zavisnosti od veličine objekta i opsega usluge. Naš cilj je pružiti najbolji odnos cene i kvaliteta, te ćemo vam pružiti detaljnu ponudu nakon besplatne procene.',
+      'Цена варира у зависности од величине објекта и опсега услуге. Наш циљ је пружити најбољи однос цене и квалитета, те ћемо вам пружити детаљну понуду након бесплатне процене.',
   },
   {
     id: 'accordion-2',
-    title: 'Koje vrste čišćenja nude vaša agencija?',
+    title: 'Које врсте чишћења нуде ваша агенција?',
     content:
-      'Naša agencija pruža usluge redovnog održavanja zgrada i specijalizovane usluge poput čišćenja nakon građevinskih radova.',
+      'Наша агенција пружа услуге редовног одржавања зграда и специјализоване услуге попут чишћења након грађевинских радова.',
   },
   {
     id: 'accordion-3',
-    title: 'Kako birate i obučavate svoje osoblje za čišćenje?',
+    title: 'Како бирате и обучавате своје особље за чишћење?',
     content:
-      'Svi naši zaposleni prolaze rigorozan proces selekcije i obuke. Imamo visoke standarde za profesionalnost i efikasnost.',
+      'Сви наши запослени пролазе ригорозан процес селекције и обуке. Имамо високе стандарде за професионалност и ефикасност.',
   },
   {
     id: 'accordion-4',
-    title: 'Kako se planira raspored čišćenja i koliko često dolazite?',
+    title: 'Како се планира распоред чишћења и колико често долазите?',
     content:
-      'Raspored čišćenja se prilagođava potrebama svakog klijenta. Možemo pružiti usluge dnevno, nedeljno, mesečno ili prema dogovoru.  Naša ekipa će s vama dogovoriti frekvenciju čišćenja i najpogodnije vreme dolaska kako bismo se prilagodili vašem radnom rasporedu i preferencijama.',
+      'Распоред чишћења се прилагођава потребама сваког клијента. Можемо пружити услуге дневно, недељно, месечно или према договору.  Наша екипа ће с вама договорити фреквенцију чишћења и најпогодније време доласка како бисмо се прилагодили вашем радном распореду и преференцијама.',
   },
   {
     id: 'accordion-5',
-    title: 'Da li nudite mogućnost prilagođavanja usluge prema specifičnim potrebama klijenata?',
+    title: 'Да ли нудите могућност прилагођавања услуге према специфичним потребама клијената?',
     content:
-      'Da, svaka usluga se prilagođava specifičnim zahtevima klijenata. Spremni smo da udovoljimo posebnim zahtevima kako bismo ispunili očekivanja svakog klijenta.',
+      'Да, свака услуга се прилагођава специфичним захтевима клијената. Спремни смо да удовољимо посебним захтевима како бисмо испунили очекивања сваког клијента.',
   },
   {
     id: 'accordion-6',
-    title: 'Koji hemijski sredstva i opremu koristite za čišćenje?',
+    title: 'Који хемијски средства и опрему користите за чишћење?',
     content:
-      'Koristimo ekološki prihvatljive deterdžente i visokokvalitetnu opremu kako bismo postigli izvanredne rezultate čišćenja uz minimalan uticaj na okolinu.',
+      'Користимо еколошки прихватљиве детерџенте и висококвалитетну опрему како бисмо постигли изванредне резултате чишћења уз минималан утицај на околину.',
   },
   {
     id: 'accordion-7',
-    title: 'Kako garantujete kvalitet i bezbednost vaših usluga čišćenja zgrada?',
+    title: 'Како гарантујете квалитет и безбедност ваших услуга чишћења зграда?',
     content:
-      'Naša agencija se ponosi visokim standardima kvaliteta i bezbednosti. Svi naši radnici su obučeni za pravilno rukovanje opremom i hemijskim sredstvima. Takođe, redovno vršimo internu proveru kvaliteta i primenjujemo najnovije tehnike kako bismo osigurali doslednost i zadovoljstvo klijenata. Naša posvećenost kvalitetu i bezbednosti je od suštinskog značaja za nas.',
+      'Наша агенција се поноси високим стандардима квалитета и безбедности. Сви наши радници су обучени за правилно руковање опремом и хемијским средствима. Такође, редовно вршимо интерну проверу квалитета и примењујемо најновије технике како бисмо осигурали доследност и задовољство клијената. Наша посвећеност квалитету и безбедности је од суштинског значаја за нас.',
   },
 ];
 
 function FAQSection() {
   return (
     <section id='faq'>
-      <h1>Najčešća pitanja korisnika</h1>
+      <h1>Најчешћа питања корисника</h1>
       <div className={styles.accordionsWrapper}>
         {faqText.map((item) => (
           <FAQItem key={item.id} title={item.title} content={item.content} />

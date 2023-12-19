@@ -9,26 +9,26 @@ function OurStandardsSection() {
           <img src={cleaningImg} alt='cleaning-2' className={styles.innerElement} />
         </div>
         <div className={styles.innerWrapper}>
-          <h1>Održavamo visoke standarde u čišćenju vašeg prostora</h1>
+          <h1>Одржавамо високе стандарде у чишћењу вашег простора</h1>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Koristimo kvalitena i proverena sredstva za čišćenje
+            Користимо квалитена и проверена средства за чишћење
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Profesionalno obučeni zaposleni (ne podizvođači)
+            Професионално обучени запослени (не подизвођачи)
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Mnoštvo zadovoljnih korisnika
+            Мноштво задовољних корисника
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Uvek donosimo naša sredstva i opremu
+            Увек доносимо наша средства и опрему
           </div>
           <div>
             <span className={styles.textSpan}>✔</span>
-            Koristimo eco-friendly sredstva za čišćenju
+            Користимо eco-friendly средства за чишћењу
           </div>
         </div>
       </div>

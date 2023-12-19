@@ -21,15 +21,15 @@ function Header() {
           </a>
           {!isTabletResolution && (
             <nav>
-              <a href='#pricing-and-services'>Cenovnik i usluge</a>
-              <a href='#faq'>Najčešća pitanja</a>
+              <a href='#pricing-and-services'>Ценовник и услуге</a>
+              <a href='#faq'>Најчешћа питања</a>
             </nav>
           )}
         </div>
         <div className='flex align-items'>
           {!isTabletResolution && (
             <a href='tel:+381643937000'>
-              <div>Pozovi +381 64 3937000</div>
+              <div>Позови +381 64 3937000</div>
             </a>
           )}
           {!isMobileResolution && (
@@ -38,7 +38,7 @@ function Header() {
               href='#contact-form'
             >
               <FontAwesomeIcon icon={faEnvelope} />
-              <span>Pošalji nam mail</span>
+              <span>Пошаљи нам маил</span>
               <FontAwesomeIcon icon={faArrowRightLong} />
             </a>
           )}
@@ -69,7 +69,7 @@ function Header() {
         <ul>
           <li role='presentation'>
             <a href='#faq' onClick={() => setMobileNavigationOpen(!mobileNavigationOpen)}>
-              Najčešća pitanja
+              Најчешћа питања
             </a>
           </li>
           <li role='presentation'>
@@ -77,22 +77,22 @@ function Header() {
               href='#pricing-and-services'
               onClick={() => setMobileNavigationOpen(!mobileNavigationOpen)}
             >
-              Cenovnik i usluge
+              Ценовник и услуге
             </a>
           </li>
           <li role='presentation'>
             <a onClick={() => setMobileNavigationOpen(!mobileNavigationOpen)} href='#our-clients'>
-              Naši klijenti
+              Наши клијенти
             </a>
           </li>
           <li role='presentation'>
             <a onClick={() => setMobileNavigationOpen(!mobileNavigationOpen)} href='#contact-form'>
-              Kontakt forma
+              Контакт форма
             </a>
           </li>
           <li role='presentation'>
             <a href='tel:+381643937000'>
-              <div>Pozovi +381 64 3937000</div>
+              <div>Позови +381 64 3937000</div>
             </a>
           </li>
         </ul>
@@ -102,7 +102,7 @@ function Header() {
           href='#contact-form'
         >
           <FontAwesomeIcon icon={faEnvelope} />
-          <span>Pošalji nam mail</span>
+          <span>Пошаљи нам маил</span>
           <FontAwesomeIcon icon={faArrowRightLong} />
         </a>
       </nav>
