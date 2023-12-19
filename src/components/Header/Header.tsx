@@ -38,7 +38,7 @@ function Header() {
               href='#contact-form'
             >
               <FontAwesomeIcon icon={faEnvelope} />
-              <span>Пошаљи нам маил</span>
+              <span>Пошаљи нам поруку</span>
               <FontAwesomeIcon icon={faArrowRightLong} />
             </a>
           )}
@@ -102,7 +102,7 @@ function Header() {
           href='#contact-form'
         >
           <FontAwesomeIcon icon={faEnvelope} />
-          <span>Пошаљи нам маил</span>
+          <span>Пошаљи нам поруку</span>
           <FontAwesomeIcon icon={faArrowRightLong} />
         </a>
       </nav>
