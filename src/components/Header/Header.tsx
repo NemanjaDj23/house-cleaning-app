@@ -4,7 +4,6 @@ import { faArrowRightLong, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import logo from '../../images/logo.png';
 import useMatchMedia from '../../hooks/useMatchMedia';
 import { useState } from 'react';
-import santaCap from '../../images/santa-cap.png';
 
 function Header() {
   const isTabletResolution = useMatchMedia('(max-width:992px)', true);
@@ -17,7 +16,7 @@ function Header() {
         <div className={styles.navbarWrapper}>
           <a className={styles.logoWrapper} href='/'>
             <img src={logo} alt='ms-sjaj-logo' />
-            <img className={styles.santaCap} src={santaCap} alt='santa-cap' />
+            {/*<img className={styles.santaCap} src={santaCap} alt='santa-cap' />*/}
           </a>
           {!isTabletResolution && (
             <nav>
